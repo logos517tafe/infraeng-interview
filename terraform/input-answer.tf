@@ -20,7 +20,7 @@ variable "scopes" {
     default = []
 }
 
-resource "google_compute_instance" "vm" {
+resource "google_compute_instance" "vm2" {
     for_each = var.instances  # Create an instance for each entry in the "instances" map.
 
     project      = var.project_id
