@@ -5,7 +5,7 @@ Write a small client that will do the following.
 - Modify the read structure to only include objects that have private set to false
 - Connect as a web client to a web service over HTTPS  (assume the web service exists, no need to write the server side)
 - Make a REST POST call, posting the selected JSON fragment to the endpoint /service/generate
-- The web server response will be a JSON map of objects.  Print the key of every object that has a child attribute "valid" set to true\
+- The web server response will be a JSON map of objects.  Print the key of every object that has a child attribute "valid" set to true
 
 Code in your preferred language i.e golang, python, perl, shell.  Place the code alongside the files in this directory.
 
